@@ -26,6 +26,9 @@
     font-weight: 500;
     text-transform: uppercase;
 }
+.row-about{
+    padding: 7rem 0;
+}
 .describeHead{
     font-weight: bold;
     text-align: start;
@@ -78,13 +81,28 @@
     text-align: start;
     border-radius: 2rem;
     background-color: #fdf0bb;
-    width: 330px;
-    height: 450px;
+    width: 50rem;
+    height: 30rem;
     font-size: 14px;
     color: #999696;
     font-weight: 300;
 }
-li{
+.wrapper2{
+    display: grid;
+    padding: 2rem 3rem 2rem 3rem;
+    text-align: start;
+    border-radius: 2rem;
+    background-color: #fdf0bb;
+    width: 22rem;
+    height: 30rem;
+    font-size: 14px;
+    color: #999696;
+    font-weight: 300;
+}
+.listcontain{
+    padding-left: 0;
+}
+.servicelist{
     font-weight: 500;
     list-style: none;
     text-align: start;
@@ -110,7 +128,7 @@ li{
 .reviewcol{
     box-sizing: border-box;
     padding: 2rem 3rem;
-    width: 250px;
+    width: 25rem;
     height: auto;
     border-radius: 15%;
     text-align: center;
@@ -133,89 +151,116 @@ li{
 
 
 
-@media (max-width:576px){
-    .aboutImgText{
-        left: 1rem;
-    }
-    .aboutButton{
-        left: 1rem;
-        padding: 5px 10px;
-    }
-    .describeHead{
-        padding-left: 2rem;
-    }
-    .describeText{
-        padding-left: 2rem;
-        padding-right: 4rem;
-    }
+
+@media (max-width:992px){
     .serviceWrapper1{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        justify-content:space-evenly;
     }
-    .serviceWrapper2{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-left: 1rem;
-        padding-right: 1rem;
+    .wrapper1{
+        padding: 2rem;
+        width: 80rem;
+    }
+    .wrapper2{
+        padding: 2rem;
+        width: 17rem;
     }
     .reviewrow{
-        flex-direction: column;
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 3rem;
+    }
+    .describeText{
+        padding-right: 4rem;
     }
 }
-@media (max-width:992px){
-    .aboutImgText{
-        left: 1rem;
-    }
+@media (max-width:768px){
     .aboutButton{
-        left: 1rem;
-        padding: 5px 10px;
+        padding: 10px 20px;
     }
     .aboutGall{
         justify-content: center;
     }
-    .describeHead{
-        padding-left: 4rem;
-    }
-    .describeText{
-        padding-left: 4rem;
-        padding-right: 4rem;
-    }
     .serviceWrapper1{
+        gap: 2rem;
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-    .serviceWrapper2{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-left: 1rem;
-        padding-right: 1rem;
     }
     .wrapper1{
-        padding: 3rem 4rem 3rem 4rem;
-        width: 430px;
-        height: 550px;
-    }
-    .reviewcol{
-        padding: 1rem 1rem;
-        width: 150px;
-        height: auto;
-    }
-}
-@media (max-width:992px){
-    .serviceWrapper1{
-        display: flex;
-        flex-direction: row;
+        width: 25rem;
     }
     .serviceWrapper2{
+        gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrapper2{
+        width: 25rem;
+    }
+    .reviewrow{
         display: flex;
         flex-direction: row;
+        align-items: center;
+        padding: 2rem;
+        gap: 2rem;
+    }
+    .reviewcol{
+        padding: 1rem;
+    }
+    .starstest{
+        margin-bottom: 5px;
+    }
+}
+@media(max-width:576px){
+    .aboutImgText{
+        left: 8px;
+    }
+    .aboutButton{
+        left: 8px;
+    }
+}
+@media (max-width:356px){
+    .aboutImgText{
+        left: 8px;
+        top: 40%;
+    }
+    .aboutButton{
+        left: 8px;
+        padding: 5px 10px;
+    }
+    .row-about{
+        padding: 2rem 0;
+    }
+    .describeHead{
+        text-align: center;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    .describeText{
+        padding: 2rem;
+        margin-bottom: 0;
+    }
+    .describeButton{
+        margin-left: 35%;
+    }
+    .aboutGall{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrapper1{
+        width: 20rem;
+    }
+    .wrapper2{
+        width: 20rem;
+    }
+    .reviewcol{
+        padding: 1rem;
+    }
+    .reviewrow{
+        padding: 2rem;
     }
 }

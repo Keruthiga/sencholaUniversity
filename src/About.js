@@ -27,7 +27,7 @@ function About() {
       </div>
       <div className="aboutdescription">
         <div className="row">
-          <div className="col-md-6 col-lg-6 col-sm-12" style={{ padding: "7rem 0" }}>
+          <div className="col-md-6 col-lg-6 col-sm-12 row-about" >
             <h3 className="describeHead">About Senchola!</h3>
             <p className="describeText ">
               We are deeply invested in helping businesses focus on business, so
@@ -65,8 +65,7 @@ function About() {
         </div>
       </div>
       <div className="services">
-        <h4
-          className="text-success"
+        <h4 className="text-success"
           style={{ textTransform: "uppercase", fontWeight: "bold",textAlign:'center'}}
         >
           Global managed services
@@ -84,10 +83,10 @@ function About() {
             Erot id tincidunt imperdiet adipiscing vestibulum vorci tortor fausibus in pellentesque eros. Amet pulvinor eu commodo neque. A
             prausent et at venenatis.
             </p>
-            <ul>
-              <li className='text-success'> <BsCheckAll/> &nbsp;Customer Service</li>
-              <li className='text-success'> <BsCheckAll/> &nbsp;Technical Support</li>
-              <li className='text-success'> <BsCheckAll/> &nbsp; Sales</li>
+            <ul className='listcontain'>
+              <li className='text-success servicelist'> <BsCheckAll/> &nbsp;Customer Service</li>
+              <li className='text-success servicelist'> <BsCheckAll/> &nbsp;Technical Support</li>
+              <li className='text-success servicelist'> <BsCheckAll/> &nbsp; Sales</li>
             </ul>
             <p className='serviceButton text-success'>VIEW ALL <FaArrowRight/></p>
           </div>
@@ -97,10 +96,10 @@ function About() {
             Erot id tincidunt imperdiet adipiscing vestibulum vorci tortor fausibus in pellentesque eros. Amet pulvinor eu commodo neque. A
             prausent et at venenatis.
             </p>
-            <ul>
-              <li className='text-success'> <BsCheckAll/> &nbsp;Business Development</li>
-              <li className='text-success'> <BsCheckAll/> &nbsp;Sales Development</li>
-              <li className='text-success'> <BsCheckAll/> &nbsp;Appointment Setting</li>
+            <ul className='listcontain'>
+              <li className='text-success servicelist'> <BsCheckAll/> &nbsp;Business Development</li>
+              <li className='text-success servicelist'> <BsCheckAll/> &nbsp;Sales Development</li>
+              <li className='text-success servicelist'> <BsCheckAll/> &nbsp;Appointment Setting</li>
             </ul>
             <p className='serviceButton text-success'>VIEW ALL <FaArrowRight/></p>
           </div>
@@ -110,38 +109,38 @@ function About() {
             Erot id tincidunt imperdiet adipiscing vestibulum vorci tortor fausibus in pellentesque eros. Amet pulvinor eu commodo neque. A
             prausent et at venenatis.
             </p>
-            <ul>
-              <li className='text-success'> <BsCheckAll/> &nbsp;Data Entry</li>
-              <li className='text-success'> <BsCheckAll/> &nbsp;Virtual Assistants</li>
-              <li className='text-success'> <BsCheckAll/> &nbsp;Online Research</li>
+            <ul className='listcontain'>
+              <li className='text-success servicelist'> <BsCheckAll/> &nbsp;Data Entry</li>
+              <li className='text-success servicelist'> <BsCheckAll/> &nbsp;Virtual Assistants</li>
+              <li className='text-success servicelist'> <BsCheckAll/> &nbsp;Online Research</li>
             </ul>
             <p className='serviceButton text-success'>VIEW ALL <FaArrowRight/></p>
           </div>
           </div>
           <div className='serviceWrapper2 mt-5'>
-          <div className="wrapper1  ">
+          <div className="wrapper2  ">
             <h4 className='wrapperHead'>RPO</h4>
             <p>lorem ipsum dolar sit amet consectetur. Dignissim quis duis placeratmalasuada massa. Elit leo ac tempeor prausent tellus feugiet enim.
             Erot id tincidunt imperdiet adipiscing vestibulum vorci tortor fausibus in pellentesque eros. Amet pulvinor eu commodo neque. A
             prausent et at venenatis.
             </p>
-            <ul>
-              <li className='text-success'> <BsCheckAll/> &nbsp;Employee</li>
-              <li className='text-success'> <BsCheckAll/> &nbsp;Contractors</li>
-              <li className='text-success'> <BsCheckAll/> &nbsp;Payroll</li>
+            <ul className='listcontain'>
+              <li className='text-success servicelist '> <BsCheckAll/> &nbsp;Employee</li>
+              <li className='text-success servicelist'> <BsCheckAll/> &nbsp;Contractors</li>
+              <li className='text-success servicelist'> <BsCheckAll/> &nbsp;Payroll</li>
             </ul>
             <p className='serviceButton text-success'>VIEW ALL <FaArrowRight/></p>
           </div>
-          <div className="wrapper1 ">
+          <div className="wrapper2 ">
             <h4 className='wrapperHead'>Client managed</h4>
             <p>lorem ipsum dolar sit amet consectetur. Dignissim quis duis placeratmalasuada massa. Elit leo ac tempeor prausent tellus feugiet enim.
             Erot id tincidunt imperdiet adipiscing vestibulum vorci tortor fausibus in pellentesque eros. Amet pulvinor eu commodo neque. A
             prausent et at venenatis.
             </p>
-            <ul>
-              <li className='text-success'> <BsCheckAll/> &nbsp;Elastic Workforce</li>
-              <li className='text-success'> <BsCheckAll/> &nbsp;One To Several</li>
-              <li className='text-success'> <BsCheckAll/> &nbsp;Team Integration</li>
+            <ul className='listcontain'>
+              <li className='text-success servicelist'> <BsCheckAll/> &nbsp;Elastic Workforce</li>
+              <li className='text-success servicelist'> <BsCheckAll/> &nbsp;One To Several</li>
+              <li className='text-success servicelist'> <BsCheckAll/> &nbsp;Team Integration</li>
             </ul>
             <p className='serviceButton text-success'>VIEW ALL <FaArrowRight/></p>
           </div>
