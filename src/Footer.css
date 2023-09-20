@@ -39,7 +39,7 @@
 
 
 .flex-box {
-    padding: 1% 4% 2% 4%;
+    padding: 3% 2% ;
     color: white;
     border-bottom: 1px solid white;
 }
@@ -73,6 +73,11 @@ button {
     margin-right: 10px;
     font-size: 1.8rem;
 }
+.foot-use{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
 
 @media (max-width:992px){
     .flex-box{
@@ -100,5 +105,10 @@ button {
 
     .footer .copyrights{
         font-size: 0.7rem;
+    }
+    .foot-use{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }

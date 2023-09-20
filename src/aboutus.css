@@ -221,8 +221,20 @@
     .aboutButton{
         left: 8px;
     }
+    .reviewrow{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutGall{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .row-about{
+        padding: 3rem 0;
+    }
 }
-@media (max-width:356px){
+@media (max-width:476px){
     .aboutImgText{
         left: 8px;
         top: 40%;
@@ -260,7 +272,8 @@
     .reviewcol{
         padding: 1rem;
     }
+    
     .reviewrow{
-        padding: 2rem;
+        padding: 4rem;
     }
 }

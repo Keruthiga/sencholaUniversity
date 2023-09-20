@@ -12,6 +12,7 @@ const Footer = () => {
            <h5 className=''>Senchola</h5>
            <p>we help ambitious scale throuch our exclusive global <br /> network of freelance talent,outsourcing services and <br /> market insights.join senchola to accelarate scale your <br /> business growth</p>
           </div>
+          <div className='foot-use'>
           <div className=" text-start usecase">
             <h6>Use case</h6>
             <p>UI design</p>
@@ -28,6 +29,7 @@ const Footer = () => {
             <p>Why I love Figma</p>
             <p>Figma</p>
             <p>Why I Love Figma</p>
+          </div>
           </div>
           <div className="connect ">
             <p>Connect with senchola technologies</p>
