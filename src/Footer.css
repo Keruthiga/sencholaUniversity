@@ -66,6 +66,8 @@ button {
 
 .socialLinks{
     margin-top: 10px;
+    display:flex;
+    justify-content: space-between;
 }
 
 .socialLinks span{
@@ -100,7 +102,7 @@ button {
 
 @media (max-width:576px){
     .connect .mail {
-        width: 75%;
+        width: 100%;
     }
 
     .footer .copyrights{

@@ -64,13 +64,13 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="services">
+      <div className="services mt-5">
         <h4 className="text-success"
           style={{ textTransform: "uppercase", fontWeight: "bold",textAlign:'center'}}
         >
           Global managed services
         </h4>
-        <p className="servicesText">
+        <p className="servicesText mb-5">
           lorem ipsum dolar sit amet consectetur. Mattis nam tristique fusce
           vulputate cursus malesuda
           <br />
